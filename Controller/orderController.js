@@ -6,7 +6,8 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 dotenv.config();
 
 // console.log(process.env.STRIPE_SECRET_KEY)
-const frontend_URL = 'http://localhost:5173';
+// const frontend_URL = 'http://localhost:5173';
+const frontend_URL = 'http://food-del-frontend.s3-website-us-east-1.amazonaws.com';
 
 
 const currency = "inr";
