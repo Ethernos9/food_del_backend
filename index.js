@@ -2,7 +2,7 @@ import express from "express"
 import mongoose from "mongoose"
 import cors from "cors"
 import bodyParser from "body-parser"
-const port = 3000
+const port = 8080
 const app = express()
 import dotenv from  "dotenv"
 dotenv.config();
